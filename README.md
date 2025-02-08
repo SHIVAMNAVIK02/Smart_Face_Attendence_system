@@ -14,4 +14,17 @@ Automated attendance logging with timestamps in CSV format.
 
 Text-to-speech confirmation upon successful attendance.
 
+## HOW TO USE:
+Run Add_faces.py and enter the person's name.
+
+The camera captures face images and stores them faces_data.pkl.
+
+Run test.py to start real-time face recognition.
+
+When a registered face is detected, it logs attendance in Attendance_{date}.csv.
+
+Press 'o' to confirm attendance and 'q' to quit.
+
+If Attendence is taken your system sounds "Attenddance Taken".
+
 
